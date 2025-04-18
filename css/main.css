@@ -1197,3 +1197,13 @@ form {
 .phone-mob {
 	display: none;
 }
+.modal-block {
+	display: none;
+	padding: 0;
+	background: transparent;
+}
+.modal-block .form-page {
+	width: 390px;
+	max-width: 100%;
+	margin: 0 auto;
+}

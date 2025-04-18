@@ -17,8 +17,8 @@
 	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.1" />
-	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+	<link rel="stylesheet" href="css/main.css?ver=1.2" />
+	<link rel="stylesheet" href="css/media.css?ver=1.2" />
 </head>
 <body>
 
@@ -328,7 +328,7 @@
 					</div>
 				</div>
 				<div class="etaps__button">
-					<a href="#" class="btn-main">оставить заявку</a>
+					<a href="#modal-callback" class="btn-main fancybox">оставить заявку</a>
 				</div>
 			</div>
 		</section>
@@ -952,6 +952,28 @@
 		
 	</div>
 
+	<div id="modal-callback" class="modal-block">
+		<div class="form-page">
+			<div class="title-form">Заказать консультацию</div>
+			<div class="descr-form">Заполните форму и мы перезвоним вам <br>в течение 30 минут</div>
+			<form>
+				<div class="item-form">
+					<input type="text" placeholder="Имя" required>
+				</div>
+				<div class="item-form">
+					<input type="tel" placeholder="Телефон" class="input-phone" inputmode="numeric" required>
+				</div>
+				<input type="submit" class="btn-main" value="отправить">
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" required="required" checked="checked" />
+						<span>Согласие на обработку персональных данных</span>
+					</label>
+				</div>
+			</form>
+		</div>
+	</div>
+
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -965,7 +987,7 @@
 	<script src="libs/mask/jquery.maskedinput.js"></script>
 	<script src="libs/jquery-spincrement/jquery.spincrement.min.js"></script>
 	<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-	<script src="js/common.js?ver=1.1"></script>
+	<script src="js/common.js?ver=1.2"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

@@ -326,6 +326,9 @@
     .circle-unit strong {
         font-size: 48px;
     }
+    .modal-block .form-page {
+        width: 355px;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -837,6 +840,9 @@
     }
     .circle-unit {
         display: none;
+    }
+    .fancybox-slide {
+        padding: 15px;
     }
 }
 

@@ -203,6 +203,7 @@ $('.slider-photos').each(function(index) {
 	$(".fancybox").fancybox({
 		autoFocus: false,
 		backFocus: false,
+		touch: false
 	});
 
 
