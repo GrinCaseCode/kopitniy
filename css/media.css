@@ -618,7 +618,8 @@
         margin: 0;
     }
     .item-etap {
-        font-size: 14px;
+        font-size: 12px;
+        line-height: 130%;
     }
     .row.row_etaps > div {
         margin-bottom: 22px;
